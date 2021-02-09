@@ -58,10 +58,10 @@ const SavedArtist = () => {
             {userData.savedArtist.map((artist) => {
             return (
               <Card key={artist.artistId} border='dark'>
-                {artist.image ? <Card.Img src={artist.image} alt={`The cover for ${artist.title}`} variant='top' /> : null}
+                {artist.image ? <Card.Img src={artist.image} alt={`The cover for ${artist.name}`} variant='top' /> : null}
                 <Card.Body>
-                  <Card.Title>{artist.title}</Card.Title>
-                  <p className='small'>Authors: {artist.authors}</p>
+                  <Card.Title>{artist.name}</Card.Title>
+                  <p className='small'>Authors: {artist.name}</p>
                   <Card.Text>{artist.description}</Card.Text>
                   <Button className='btn-block btn-danger' onClick={() => handleDeleteArtist(artist.artistId)}>
                     Delete this Artist!

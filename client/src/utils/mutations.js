@@ -33,12 +33,10 @@ export const SAVE_ARTIST = gql`
             email
             artistCount
             savedArtist {
-                artistId
-                author
-                description
-                title
-                image
-                link
+                key
+                displayname
+                url
+                culture 
             }
         }
     }
@@ -49,14 +47,12 @@ export const REMOVE_ARTIST = gql`
         removeArtist(artistId: $artistId) {
                 _id
                 username
-                bookCount
-                savedBooks {
-                    title
-                    authors
-                    bookId
-                    description
-                    image
-                    link
+                artCount
+                savedArtist {
+                    key
+                    displayname
+                    url
+                    culture
             }
         }
     }

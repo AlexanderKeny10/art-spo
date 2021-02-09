@@ -1,26 +1,22 @@
 # {Artspo}
-<<<<<<< HEAD
 
-=======
->>>>>>> d320386064b0aeac70f42834e22d90b6a121a70a
 ## Table of Contents
 * [User Story](#user-story)
 * [Criteria](#criteria)
 * [Technologies](#technologies)
-* [Mockup](#mockup)
 * [Screenshots](#screenshots)
-<<<<<<< HEAD
 
-=======
->>>>>>> d320386064b0aeac70f42834e22d90b6a121a70a
+
 ## User Story
-As an inspiring artist <br />
+If you're an inspiring artist, creative, or just curious about how or why
+anyone would care about art, begin your journey here. Search for an artist to learn 
+more about what they did, who they are, and how they made an impression in the world. Find your
+art inspiration with Art-Spo. <br />
 I WANT an webpage that can give artists inspiration from other artists of art work and make a donation. <br />
 SO WHEN I search for a painting it will display image, description and able to save favorite art paintings. 
-<<<<<<< HEAD
 
-=======
->>>>>>> d320386064b0aeac70f42834e22d90b6a121a70a
+## Usage
+
 ## Criteria
 WHEN I load the search engine to Artspo <br />
 THEN I am presented with the homepage with links to follow with social media, Login/Signup and an input field to search for artists work <br />
@@ -44,10 +40,11 @@ WHEN I click on the remove button on artwork <br />
 THEN that artist artwork is deleted from my saved arts list <br />
 WHEN I click on the Logout button <br />
 THEN I am logged out of the site and presented with the homepage of the login/signup form <br />
-<<<<<<< HEAD
 
-=======
->>>>>>> d320386064b0aeac70f42834e22d90b6a121a70a
+
+## Screenshots
+
+
 ## Technologies
 1. Mongoose 
 2. MogoDB 
@@ -57,17 +54,12 @@ THEN I am logged out of the site and presented with the homepage of the login/si
 6. Apollo
 7. Graphlq
 8. Metropolitan Museum of Art API
-<<<<<<< HEAD
-
-## Mockup
-![Mockup](.\client\public\artspo.jpg)
 
 
+## Contact 
+Visit our **[GitHub profiles](https://github.com/Aken00/) (https://github.com/Aken00/) (https://github.com/Champion113)** 
+to check out this and other projects.
+Contact me at **Ajken04@gmail.com** with any questions or if you'd like to collaborate.
 
-## Links
-* [TuneOut Deployed Site Link](https://bspiewak6.github.io/music) 
-* [TuneOut GitHub Repository](https://github.com/bspiewak6/music)
-=======
-## Mockup
-![Mockup](.\client\public\artspo.jpg)
->>>>>>> d320386064b0aeac70f42834e22d90b6a121a70a
+
+

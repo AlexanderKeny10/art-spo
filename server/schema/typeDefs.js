@@ -11,21 +11,17 @@ const typeDefs = gql`
     }
 
     type Artist {
-        artistId: ID
-        title: String
-        authors: [String]
-        description: String
-        image: String
-        link: String
+        key: ID!
+        displayname: String
+        url: String
+        culture: String
     }
 
-    type ArtistInputs {
-        artistId: ID
-        authors: [String]
-        description: String
-        title: String
-        image: String
-        link: String
+    type ArtistInput {
+        key: Int!
+        displayname: String
+        url: String
+        culture: String
     }
 
     type Auth {
