@@ -8,11 +8,10 @@ export const GET_ME = gql`
             email
             artCount
             savedArtist {
-                name
-                artistId
-                description
-                image
-                link
+                key
+                displayname
+                url
+                culture
             }
         }
     }
