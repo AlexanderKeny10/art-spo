@@ -17,7 +17,7 @@ const typeDefs = gql`
         culture: String
     }
 
-    type ArtistInput {
+    input ArtistInput {
         key: Int!
         displayname: String
         url: String
@@ -26,7 +26,7 @@ const typeDefs = gql`
 
     type Auth {
         token: ID
-        uesr: User
+        user: User
     }
 
     type Query {
