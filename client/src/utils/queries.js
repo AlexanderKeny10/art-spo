@@ -8,12 +8,21 @@ export const GET_ME = gql`
             email
             artCount
             savedArtist {
-                name
-                artistId
-                description
-                image
-                link
+                key
+                displayname
+                url
+                culture
             }
         }
     }
+`;
+
+export const QUERY_USERS = gql`
+query {
+    users {
+      _id
+      username
+      email
+    }
+  } 
 `;

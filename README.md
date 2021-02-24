@@ -4,10 +4,13 @@
 
 ## Table of Contents
 * [User Story](#user-story)
+* [Usage](#usage)
 * [Criteria](#criteria)
 * [Technologies](#technologies)
-* [Mockup](#mockup)
 * [Screenshots](#screenshots)
+* [Links](#links)
+* [Mockup](#mockup)
+* [License](#license)
 
 ## User Story
 If you're an inspiring artist, creative, or just curious about how or why
@@ -79,6 +82,10 @@ THEN I am logged out of the site and presented with the homepage of the login/si
 ## Contact 
 Visit our **[GitHub profiles](https://github.com/Aken00/) (https://github.com/amanduke) (https://github.com/Champion113)** 
 to check out this and other projects.
+
+## links 
+- **[Github Repo](https://github.com/Aken00/art-spo)
+- **[Deployed App](https://art-spo.herokuapp.com/)
 
 ## License  
   <a href='./LICENSE'>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>  
