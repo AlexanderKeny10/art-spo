@@ -30,6 +30,7 @@ const SignupForm = () => {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log(event)
     event.preventDefault();
 
     const form = event.currentTarget;
