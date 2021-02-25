@@ -30,6 +30,7 @@ const SignupForm = () => {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log(event)
     event.preventDefault();
 
     const form = event.currentTarget;
@@ -174,7 +175,7 @@ const SignupForm = () => {
         <Button
           disabled={!(userFormData.username && userFormData.email && userFormData.password)}
           type='submit'
-          variant='success'>
+          variant='danger'>
           Submit
         </Button>
       </Form>

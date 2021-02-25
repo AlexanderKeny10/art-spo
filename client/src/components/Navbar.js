@@ -14,11 +14,17 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar bg='light'  expand='lg' class="navbar navbar-expand-lg navbar-light bg-light">
+      <Navbar bg='light'  expand='lg' className="navbar navbar-expand-lg navbar-light bg-light">
         
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
-            Artspo
+          <img
+            alt="logo"
+            src="https://user-images.githubusercontent.com/65379991/109088245-12c9d800-76dd-11eb-8cf4-bc1ec769ab17.jpg"
+            width="90"
+            height="90"
+            className="d-inline-block align-top"
+          />{" "}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
