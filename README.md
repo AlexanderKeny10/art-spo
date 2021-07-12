@@ -22,7 +22,7 @@ SO WHEN I search for a painting it will display image, description and able to s
 
 ## Usage
 Art-spo works as a full-stack MERN appliaction with both client and server side. 
-A user can aearch for an artist by name and recive a card list of items featureing the all artist with said common name,
+A user can search for an artist by name and recive a card list of items featureing the all artist with said common name,
 what culture they are from and influenced by, and an image of their works with and imbeded url. 
 All reults are provided by the Harvard Museum of Art API. 
 A user should also be able to login and save their search results by clicking on the list items and is saved to thier own Saved Artist Dashboard.
