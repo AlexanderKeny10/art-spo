@@ -50,7 +50,7 @@ const SavedArtist = () => {
       </Jumbotron>
       <Container>
         <h2>
-          {userData.SavedArtist?.length
+          {userData.savedArtist?.length
             ? `Viewing ${userData.savedArtist.length} saved ${userData.savedArtist.length === 1 ? 'artist' : 'artist'}:`
             : 'You have no saved artist!'}
         </h2>
