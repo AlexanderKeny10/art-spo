@@ -80,11 +80,11 @@ THEN I am logged out of the site and presented with the homepage of the login/si
 ![Mockup](.\client\public\artspo.jpg)
 
 ## Contact 
-Visit our **[GitHub profiles](https://github.com/Aken00/) (https://github.com/amanduke) (https://github.com/Champion113)** 
+Visit our **[GitHub profiles](https://github.com/AlexanderKeny10/) (https://github.com/amanduke) (https://github.com/Champion113)** 
 to check out this and other projects.
 
 ## links 
-- **[Github Repo](https://github.com/Aken00/art-spo)
+- **[Github Repo](https://github.com/AlexanderKeny10/art-spo)
 - **[Deployed App](https://art-spo.herokuapp.com/)
 
 ## License  
